@@ -1,0 +1,50 @@
+
+body{
+
+    background-color: green;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.flex-container{
+
+    width: 100%;
+    height: auto;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.container{
+
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+    background-color:white;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px){
+
+    body{
+        background-color: blue;
+    }
+
+    .container{
+
+        width: 90%;
+    }
+    
+}
